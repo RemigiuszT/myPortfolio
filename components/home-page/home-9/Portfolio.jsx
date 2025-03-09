@@ -1,10 +1,7 @@
 "use client";
-
 import { useState } from "react";
-import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Image from "next/image";
-import Link from "next/link";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("*");
