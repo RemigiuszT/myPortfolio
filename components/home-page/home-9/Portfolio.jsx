@@ -90,6 +90,8 @@ const Portfolio = () => {
                   src={item.image}
                   alt={item.name}
                   className="w-100"
+                  priority={true}
+                  unoptimized={true}
                 />
 
                 {item.url && (
