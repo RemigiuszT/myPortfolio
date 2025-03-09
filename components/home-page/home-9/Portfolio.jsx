@@ -12,7 +12,7 @@ const Portfolio = () => {
       category: "web-development",
       name: "Dance Studio FLY",
       tag: "Full Stack",
-      image: "/images/project_1.jpg",
+      image: "/project_1.jpg",
       url: "https://www.studiotancafly.pl",
       projectInfo: {
         date: "2024-Present",
@@ -25,7 +25,7 @@ const Portfolio = () => {
       category: "web-development",
       name: "Zalesie Resort",
       tag: "WIP",
-      image: "/images/project_2.jpg",
+      image: "/project_2.jpg",
       projectInfo: {
         date: "2024-Present",
         clientName: "Private Client",
