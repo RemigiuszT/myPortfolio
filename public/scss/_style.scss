@@ -4093,6 +4093,11 @@ body .btn-twentySix:hover:after {
   bottom: 16%;
   right: 5%;
 }
+.counter-block-one {
+  @media screen and (max-width: 575px) {
+    margin-bottom: 30px;
+  }
+}
 .counter-block-one .icon-bg {
   width: 230px;
   height: 310px;
@@ -10541,4 +10546,17 @@ body .btn-twentySix:hover:after {
 
 .bi-file-lock {
   color: #2f80ed;
+}
+
+.header-menu {
+  justify-content: center;
+  @media screen and (max-width: 991px) {
+    justify-content: end;
+  }
+}
+
+.email-footer {
+  @media screen and (max-width: 1199px) {
+    font-size: 14px;
+  }
 }

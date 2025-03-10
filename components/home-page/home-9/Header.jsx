@@ -30,7 +30,7 @@ const Header = () => {
       }`}
     >
       <div className="inner-content position-relative">
-        <div className="d-flex align-items-center justify-content-center">
+        <div className="d-flex align-items-center header-menu">
           <PortfolioMenu />
         </div>
       </div>

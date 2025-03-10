@@ -289,7 +289,9 @@ const PersonalPortfolio = () => {
                 <span className="icon d-flex align-items-center justify-content-center rounded-circle">
                   <i className="far fa-envelope" />
                 </span>
-                <span>remigiusz.remigiusz.terek@gmail.com</span>
+                <span className="email-footer">
+                  remigiusz.remigiusz.terek@gmail.com
+                </span>
               </a>
             </div>
             {/* End .col-lg-4 */}

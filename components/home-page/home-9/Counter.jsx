@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import { FaReact, FaMobileAlt } from "react-icons/fa";
@@ -38,10 +38,21 @@ const counters = [
 ];
 
 const Counter = () => {
+  const [isMobile, setIsMobile] = useState(false);
   const { ref, inView } = useInView({
-    threshold: 0.5,
     triggerOnce: true,
+    threshold: 0.1,
   });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
@@ -50,8 +61,8 @@ const Counter = () => {
           <div
             className="counter-block-one text-center"
             ref={ref}
-            data-aos="fade-up"
-            data-aos-delay={`${100 * index}`}
+            data-aos={!isMobile ? "fade-up" : ""}
+            data-aos-delay={!isMobile ? `${100 * index}` : ""}
           >
             <div className="icon-bg">
               <div className="icon-img d-flex justify-content-center">
@@ -67,7 +78,7 @@ const Counter = () => {
               </div>
             </div>
             <div className="main-count font-recoleta fw-light tx-dark mt-25 lg-mt-20">
-              {inView ? (
+              {inView || isMobile ? (
                 <CountUp
                   end={counter.value}
                   suffix={" " + counter.suffix}
