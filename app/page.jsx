@@ -269,7 +269,7 @@ const PersonalPortfolio = () => {
 				Footer
 			=====================================================
 			*/}
-      <div className="footer-style-four position-relative">
+      <div className="footer-style-four position-relative" id="s5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4 mb-30 order-lg-0">
