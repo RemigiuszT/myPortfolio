@@ -49,7 +49,7 @@ const PersonalPortfolio = () => {
               data-aos="fade-right"
             >
               <div className="main-count">
-                <span className="counter">4</span>+
+                <span className="counter">5</span>+
               </div>
               <h2 className="title fw-500 tx-dark">
                 Years Experience in field
