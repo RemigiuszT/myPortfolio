@@ -24,11 +24,12 @@ const Portfolio = () => {
       id: 2,
       category: "web-development",
       name: "Zalesie Resort",
-      tag: "WIP",
+      tag: "Full Stack",
       image: "/project_2.jpg",
+      url: "https://osrodekzalesie.pl/",
       projectInfo: {
         date: "2024-Present",
-        clientName: "Private Client",
+        clientName: "Zalesie Resort",
         projectType: "Next.js • Firebase • SEO",
       },
     },
@@ -83,13 +84,14 @@ const Portfolio = () => {
             key={item.id}
           >
             <div className="portfolio-block-one mt-40 xs-mt-30">
-              <div className="img-meta position-relative">
+              <div className="img-meta position-relative" style={{ aspectRatio: "4/3", overflow: "hidden" }}>
                 <Image
-                  width={640}
-                  height={666}
+                  width={800}
+                  height={600}
                   src={item.image}
                   alt={item.name}
-                  className="w-100"
+                  className="w-100 h-100"
+                  style={{ objectFit: "cover" }}
                   priority={true}
                   unoptimized={true}
                 />

@@ -17,16 +17,16 @@ const counters = [
   {
     icon: <SiTypescript />,
     title: "TypeScript",
-    value: 3,
+    value: 5,
     suffix: "yrs",
-    description: "Commercial experience",
+    description: "Since 2021",
   },
   {
     icon: <SiNextdotjs />,
     title: "Next.js",
     value: 5,
-    suffix: "SEO",
-    description: "Optimized projects",
+    suffix: "+",
+    description: "Fullstack projects",
   },
   {
     icon: <FaMobileAlt />,

@@ -57,7 +57,7 @@ const Hero = () => {
           >
             <h1 className="hero-heading fw-500 font-recoleta tx-dark mb-65 lg-mb-40">
               Building Modern <br />
-              Web Applications
+              Web & Mobile Applications
             </h1>
           </div>
           <div
@@ -66,8 +66,8 @@ const Hero = () => {
             data-aos-delay="400"
           >
             <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-              Front-End Developer specializing in React & TypeScript with
-              commercial experience in SaaS products
+              Fullstack & Mobile Developer specializing in React, TypeScript
+              & Node.js with commercial experience in SaaS products
             </p>
           </div>
         </div>

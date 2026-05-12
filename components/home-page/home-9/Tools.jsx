@@ -1,11 +1,11 @@
 const Tools = () => {
   const toolNames = [
     "Git & GitHub",
-    "Jest & Cypress",
     "Docker",
+    "Playwright",
+    "Google Cloud",
     "JIRA",
     "Figma",
-    "Node.js",
     "VS Code",
   ];
 

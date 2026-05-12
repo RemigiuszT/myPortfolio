@@ -4,7 +4,7 @@ const Block = () => {
       iconSrc: "/images/icon/icon_40.svg",
       bgColor: "#EBF8F8",
       title: "Web Applications",
-      desc: "React • TypeScript • Next.js",
+      desc: "React • TypeScript • Next.js • Angular",
     },
     {
       iconSrc: "/images/icon/icon_55.svg",
@@ -16,7 +16,7 @@ const Block = () => {
       iconSrc: "/images/icon/icon_39.svg",
       bgColor: "#F3F5FF",
       title: "Full-stack Solutions",
-      desc: "Golang • Node.js • MongoDB",
+      desc: "PHP • Node.js • Golang • SQL",
     },
   ];
 

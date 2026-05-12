@@ -4,11 +4,11 @@ const Education = () => {
   const educationItems = [
     {
       degree: "IT in Business, Cybersecurity (Masters)",
-      university: "WSB Merito University, Toruń",
+      university: "WSB Merito University, Toruń · 2024–2026",
     },
     {
       degree: "IT in Business, Front-end (Bachelors)",
-      university: "WSB Merito University, Toruń",
+      university: "WSB Merito University, Toruń · 2021–2024",
     },
   ];
 

@@ -16,7 +16,7 @@ import Tools from "@/components/home-page/home-9/Tools";
 import Social from "@/components/home-page/home-9/Social";
 export const metadata = {
   title:
-    "Remigiusz Terek - Front-end Developer | React, TypeScript, Next.js, Node.js",
+    "Remigiusz Terek - Fullstack Developer | React, TypeScript, Next.js, Node.js, PHP",
 };
 const PersonalPortfolio = () => {
   return (
@@ -49,7 +49,7 @@ const PersonalPortfolio = () => {
               data-aos="fade-right"
             >
               <div className="main-count">
-                <span className="counter">3</span>+
+                <span className="counter">4</span>+
               </div>
               <h2 className="title fw-500 tx-dark">
                 Years Experience in field
@@ -117,7 +117,7 @@ const PersonalPortfolio = () => {
                 <h2 className="main-title font-recoleta fw-500 tx-dark">
                   My
                   <span className="d-inline-block position-relative">
-                    Expereince
+                    Experience
                     <span
                       className="mark-bg"
                       style={{ backgroundColor: "#FFDBDB" }}
@@ -283,7 +283,7 @@ const PersonalPortfolio = () => {
 
             <div className="col-lg-4 mb-30 d-flex justify-content-center justify-content-lg-end order-lg-3">
               <a
-                href="mailto:support@jano.com"
+                href="mailto:remigiusz.remigiusz.terek@gmail.com"
                 className="mail d-flex align-items-center"
               >
                 <span className="icon d-flex align-items-center justify-content-center rounded-circle">
